@@ -1,8 +1,13 @@
-1.1.3 - [RELEASEDATE]
+1.1.4 - [RELEASEDATE]
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- ezcMvcRegexpRoute implements ezcMvcReversibleRoute
+
+
+1.1.3 - Monday 22 March 2010
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Refactored HTTP request parsing for extensibility.
-- ezcMvcRegexpRoute implements ezcMvcReversibleRoute
 
 
 1.1.2 - Tuesday 01 September 2009
