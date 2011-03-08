@@ -1,4 +1,10 @@
-1.3.8 - [RELEASEDATE]
+1.3.9 - [RELEASEDATE]
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Fixed ZETACOMP-55: Imagick composite with empty string parameter in
+  watermark doesn't work. (Patch by Xiongjie Chen)
+
+
+1.3.8 - Monday 22 March 2010
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Fixed issue #15011: ImageMagick handler does now correctly use the binary
