@@ -396,7 +396,7 @@ class ezcImageImagemagickBaseHandler extends ezcImageMethodcallHandler
         {
             $this->binary = ezcBaseFeatures::getImageConvertExecutable();
         }
-        else if ( file_exists( $settings->options['binary'] ) )
+        else if ( ( isset( $settings->options['skip_exec_check'] ) && $settings->options['skip_exec_check'] ) || file_exists( $settings->options['binary'] ) )
         {
             $this->binary = $settings->options['binary'];
         }
